@@ -1,0 +1,261 @@
+{
+  "viec_lam": [
+    {
+      "ten": "Photographer chụp ảnh cưới",
+      "nhan": [
+        {
+          "chu": "Tuyển gấp · 02 người",
+          "noi_bat": true
+        },
+        {
+          "chu": "Full-time",
+          "noi_bat": false
+        },
+        {
+          "chu": "10 – 18 triệu",
+          "noi_bat": false
+        }
+      ],
+      "nhom": [
+        {
+          "tieu_de": "Mô tả công việc",
+          "muc": [
+            "Chụp ảnh cưới ngoại cảnh, phim trường và studio theo lịch được phân công.",
+            "Trao đổi concept với khách hàng trước buổi chụp, dẫn dáng và tạo không khí thoải mái.",
+            "Lọc ảnh, giao file gốc đúng thời hạn và phối hợp với bộ phận hậu kỳ.",
+            "Giữ gìn, kiểm tra thiết bị trước và sau mỗi buổi chụp."
+          ]
+        },
+        {
+          "tieu_de": "Yêu cầu",
+          "muc": [
+            "Tối thiểu 1 năm kinh nghiệm chụp cưới, có portfolio để xem.",
+            "Thành thạo máy Full-frame, hiểu ánh sáng tự nhiên và đèn flash rời.",
+            "Có thể đi tỉnh 2 – 3 ngày khi có lịch chụp ngoại tỉnh.",
+            "Chịu khó, đúng giờ, giao tiếp tốt với khách hàng."
+          ]
+        },
+        {
+          "tieu_de": "Quyền lợi",
+          "muc": [
+            "Lương cứng 8 – 12 triệu + phụ cấp buổi chụp 300.000 – 500.000đ/buổi.",
+            "Thưởng doanh số theo hợp đồng khách chốt qua giới thiệu của bạn.",
+            "Được dùng toàn bộ thiết bị của studio, bao ăn khi đi tỉnh."
+          ]
+        }
+      ]
+    },
+    {
+      "ten": "Quay phim / Dựng phim cưới",
+      "nhan": [
+        {
+          "chu": "01 người",
+          "noi_bat": false
+        },
+        {
+          "chu": "Full-time",
+          "noi_bat": false
+        },
+        {
+          "chu": "9 – 16 triệu",
+          "noi_bat": false
+        }
+      ],
+      "nhom": [
+        {
+          "tieu_de": "Mô tả công việc",
+          "muc": [
+            "Quay phóng sự cưới, clip hậu trường và các buổi chụp ngoại cảnh.",
+            "Dựng clip highlight 5 – 7 phút và bản full lễ, chỉnh màu theo tông của studio.",
+            "Quản lý và sao lưu dữ liệu quay dựng."
+          ]
+        },
+        {
+          "tieu_de": "Yêu cầu",
+          "muc": [
+            "Sử dụng tốt Premiere hoặc DaVinci Resolve, biết chỉnh màu cơ bản.",
+            "Ưu tiên ứng viên có bằng lái flycam hoặc từng bay flycam.",
+            "Có sản phẩm đã thực hiện để đánh giá."
+          ]
+        },
+        {
+          "tieu_de": "Quyền lợi",
+          "muc": [
+            "Lương cứng 7 – 11 triệu + phụ cấp theo dự án.",
+            "Được studio đầu tư thiết bị quay dựng, máy dựng cấu hình cao."
+          ]
+        }
+      ]
+    },
+    {
+      "ten": "Make-up Artist / Chuyên viên trang điểm",
+      "nhan": [
+        {
+          "chu": "02 người",
+          "noi_bat": false
+        },
+        {
+          "chu": "Full-time / Part-time",
+          "noi_bat": false
+        },
+        {
+          "chu": "8 – 15 triệu",
+          "noi_bat": false
+        }
+      ],
+      "nhom": [
+        {
+          "tieu_de": "Mô tả công việc",
+          "muc": [
+            "Trang điểm, làm tóc cô dâu cho buổi chụp và ngày cưới.",
+            "Tư vấn phong cách trang điểm phù hợp với concept và gương mặt khách.",
+            "Hỗ trợ mặc váy, chỉnh trang phục tại điểm chụp.",
+            "Bảo quản, vệ sinh dụng cụ và mỹ phẩm của studio."
+          ]
+        },
+        {
+          "tieu_de": "Yêu cầu",
+          "muc": [
+            "Có chứng chỉ hoặc đã học nghề trang điểm, tối thiểu 6 tháng kinh nghiệm.",
+            "Thành thạo make-up cô dâu tông trong trẻo và tông Hàn Quốc.",
+            "Khéo léo, sạch sẽ, giao tiếp nhẹ nhàng với khách."
+          ]
+        },
+        {
+          "tieu_de": "Quyền lợi",
+          "muc": [
+            "Lương cứng + hoa hồng theo từng ca trang điểm.",
+            "Được studio cung cấp mỹ phẩm và dụng cụ hành nghề."
+          ]
+        }
+      ]
+    },
+    {
+      "ten": "Tư vấn viên / Chăm sóc khách hàng",
+      "nhan": [
+        {
+          "chu": "02 người",
+          "noi_bat": false
+        },
+        {
+          "chu": "Full-time",
+          "noi_bat": false
+        },
+        {
+          "chu": "7 – 14 triệu",
+          "noi_bat": false
+        }
+      ],
+      "nhom": [
+        {
+          "tieu_de": "Mô tả công việc",
+          "muc": [
+            "Tiếp khách tại studio, tư vấn gói chụp và trang phục phù hợp ngân sách.",
+            "Trả lời tin nhắn Zalo, Facebook, cuộc gọi từ hotline.",
+            "Lên lịch chụp, theo dõi tiến độ album và báo khách khi có sản phẩm.",
+            "Chăm sóc khách sau khi nhận sản phẩm, xin đánh giá Google Maps."
+          ]
+        },
+        {
+          "tieu_de": "Yêu cầu",
+          "muc": [
+            "Giao tiếp tốt, giọng dễ nghe, biết lắng nghe khách hàng.",
+            "Sử dụng được Excel / Google Sheets ở mức cơ bản.",
+            "Không yêu cầu kinh nghiệm — sẽ được đào tạo tại chỗ."
+          ]
+        },
+        {
+          "tieu_de": "Quyền lợi",
+          "muc": [
+            "Lương cứng 6 – 8 triệu + hoa hồng theo hợp đồng chốt được.",
+            "Thưởng thêm theo số lượng đánh giá 5 sao thu về mỗi tháng."
+          ]
+        }
+      ]
+    },
+    {
+      "ten": "Trợ lý / Cộng tác viên buổi chụp",
+      "nhan": [
+        {
+          "chu": "05 người",
+          "noi_bat": false
+        },
+        {
+          "chu": "Part-time",
+          "noi_bat": false
+        },
+        {
+          "chu": "250.000 – 400.000đ/buổi",
+          "noi_bat": false
+        }
+      ],
+      "nhom": [
+        {
+          "tieu_de": "Mô tả công việc",
+          "muc": [
+            "Hỗ trợ mang vác thiết bị, giữ đèn, hắt sáng trong buổi chụp.",
+            "Hỗ trợ cô dâu chỉnh váy, cầm hoa, chuẩn bị đạo cụ.",
+            "Sắp xếp lại thiết bị và trang phục sau buổi chụp."
+          ]
+        },
+        {
+          "tieu_de": "Yêu cầu",
+          "muc": [
+            "Từ 18 tuổi, sức khoẻ tốt, chịu được làm ngoài trời.",
+            "Chủ động, nhanh nhẹn, đúng giờ.",
+            "Phù hợp với sinh viên muốn học nghề ảnh — không cần kinh nghiệm."
+          ]
+        },
+        {
+          "tieu_de": "Quyền lợi",
+          "muc": [
+            "Thanh toán ngay sau buổi chụp, bao ăn trưa và nước.",
+            "Được học nghề miễn phí, có cơ hội lên trợ lý chính thức."
+          ]
+        }
+      ]
+    },
+    {
+      "ten": "Nhân viên hậu kỳ (Retouch)",
+      "nhan": [
+        {
+          "chu": "02 người",
+          "noi_bat": false
+        },
+        {
+          "chu": "Full-time / Remote",
+          "noi_bat": false
+        },
+        {
+          "chu": "8 – 14 triệu",
+          "noi_bat": false
+        }
+      ],
+      "nhom": [
+        {
+          "tieu_de": "Mô tả công việc",
+          "muc": [
+            "Chỉnh sửa ảnh cưới: da, dáng, hậu cảnh, ghép chi tiết theo yêu cầu.",
+            "Chỉnh màu đồng bộ toàn bộ album theo tông màu chuẩn của studio.",
+            "Dàn trang album, xuất file in đúng thông số nhà in."
+          ]
+        },
+        {
+          "tieu_de": "Yêu cầu",
+          "muc": [
+            "Thành thạo Photoshop và Lightroom, có sản phẩm minh chứng.",
+            "Cẩn thận, chịu được khối lượng ảnh lớn vào mùa cưới.",
+            "Có thể làm remote nếu đảm bảo tiến độ và họp online định kỳ."
+          ]
+        },
+        {
+          "tieu_de": "Quyền lợi",
+          "muc": [
+            "Lương cứng + thưởng theo số album hoàn thành đúng hạn.",
+            "Hỗ trợ máy dựng tại studio cho nhân sự làm tại chỗ."
+          ]
+        }
+      ]
+    }
+  ]
+}

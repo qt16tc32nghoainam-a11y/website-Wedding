@@ -1,0 +1,28 @@
+# Cau hinh Netlify: moi lan luu tren trang quan tri (/admin) -> GitHub -> Netlify tu chay lenh duoi
+[build]
+  command = "python3 tools/build_site.py"
+  publish = "_site"
+
+[build.environment]
+  PYTHON_VERSION = "3.12"
+
+[[redirects]]
+  from = "/admin"
+  to = "/admin/"
+  status = 301
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+    Cache-Control = "no-cache"

@@ -1,0 +1,39 @@
+{
+  "ten_studio": "Quốc An Studio",
+  "dia_chi": "1701 Đ. Hùng Vương, Phước An, Đồng Nai",
+  "hotline_1": "0354 501 333",
+  "hotline_1_ten": "Mr An",
+  "hotline_2": "0334 923 634",
+  "hotline_2_ten": "Mrs Huyền",
+  "zalo": "0334 923 634",
+  "email": "quocan6339@gmail.com",
+  "gio_mo_cua": "8:00 – 20:00",
+  "ngay_mo_cua": "Thứ 2 – Chủ nhật",
+  "google_maps": "https://www.google.com/maps?cid=17296204885652745400",
+  "fanpage": "https://www.facebook.com/chupanhdepNhonTrach",
+  "fanpage_ten": "Fanpage Chụp ảnh đẹp Nhơn Trạch",
+  "facebook_ca_nhan": "https://www.facebook.com/duong.huyen.869417",
+  "facebook_ca_nhan_ten": "Facebook cá nhân: Dương Huyền",
+  "instagram": "https://www.instagram.com/lu.vic.509/",
+  "instagram_ten": "@lu.vic.509",
+  "tai_khoan": [
+    {
+      "nhan": "Tài khoản chính",
+      "chinh": true,
+      "chu_tk": "HỘ KINH DOANH QUỐC AN STUDIO",
+      "so_tk": "103887090768",
+      "ngan_hang": "VietinBank — CN Nhơn Trạch — Hội Sở",
+      "qr": "/assets/img/qr-bank.png",
+      "mo_ta_qr": "Mã QR chuyển khoản VietinBank — Hộ kinh doanh Quốc An Studio"
+    },
+    {
+      "nhan": "Tài khoản phụ",
+      "chinh": false,
+      "chu_tk": "HỘ KINH DOANH DƯƠNG THỊ NGỌC HUYỀN",
+      "so_tk": "106887090192",
+      "ngan_hang": "VietinBank — CN Nhơn Trạch — Hội Sở",
+      "qr": "/assets/img/qr-bank-2.png",
+      "mo_ta_qr": "Mã QR chuyển khoản VietinBank — Hộ kinh doanh Dương Thị Ngọc Huyền"
+    }
+  ]
+}

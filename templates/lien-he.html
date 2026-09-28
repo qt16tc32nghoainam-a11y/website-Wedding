@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Liên hệ &amp; Đặt lịch — Quốc An Studio</title>
+<meta name="description" content="Quốc An Studio - {{dia_chi}}. Hotline {{hotline_1_day}} - {{hotline_2_day}}. Đặt lịch chụp ảnh cưới, xem bản đồ và mã QR Google Maps.">
+<link rel="icon" href="assets/img/favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css?v=202609111250">
+</head>
+<body>
+
+
+<!-- CMS:header -->
+
+<section class="page-hero">
+  <div class="wrap">
+    <p class="crumb"><a href="index.html">Trang chủ</a> &nbsp;/&nbsp; Liên hệ</p>
+    <h1>Liên hệ &amp; Đặt lịch</h1>
+    <p>Ghé studio để xem album thật và thử váy cưới, hoặc gọi hotline để được tư vấn nhanh nhất.</p>
+  </div>
+</section>
+
+<!-- ===== THÔNG TIN + FORM ===== -->
+<section class="section">
+  <div class="wrap contact-grid">
+    <div class="reveal">
+      <p class="eyebrow">Thông tin liên hệ</p>
+      <h2>Quốc An Studio</h2>
+      <div class="divider" style="margin-left:0"><span></span></div>
+
+<!-- CMS:thong-tin -->
+
+      <div class="btn-row" style="margin-top:30px">
+        <a href="{{google_maps}}"
+           target="_blank" rel="noopener" class="btn">Chỉ đường Google Maps</a>
+      </div>
+    </div>
+
+    <!-- FORM ĐẶT LỊCH -->
+    <div class="form reveal">
+      <h2 style="margin-bottom:.2em">Đặt lịch tư vấn</h2>
+      <p style="color:var(--muted);font-size:.94rem">Điền thông tin bên dưới, chúng tôi sẽ liên hệ
+         lại trong vòng 24 giờ.</p>
+
+      <form action="https://formsubmit.co/{{email}}" method="POST">
+        <!-- Cac o an dieu khien FormSubmit -->
+        <input type="hidden" name="_subject" value="Đặt lịch mới từ quocanstudio.vn">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://quocanstudio.vn/lien-he.html?gui=ok">
+        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+        <div class="field-row">
+          <div class="field">
+            <label for="ten">Họ và tên *</label>
+            <input type="text" id="ten" name="Họ và tên" placeholder="Nguyễn Văn A" required>
+          </div>
+          <div class="field">
+            <label for="sdt">Số điện thoại *</label>
+            <input type="tel" id="sdt" name="Số điện thoại" placeholder="09xx xxx xxx"
+                   pattern="[0-9 .+()]{9,15}" required>
+          </div>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="goi">Gói quan tâm</label>
+            <select id="goi" name="Gói quan tâm">
+<!-- CMS:goi-options -->
+            </select>
+          </div>
+          <div class="field">
+            <label for="ngay">Ngày dự kiến chụp</label>
+            <input type="date" id="ngay" name="Ngày dự kiến chụp">
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="loi-nhan">Lời nhắn</label>
+          <textarea id="loi-nhan" name="Lời nhắn" placeholder="Concept mong muốn, địa điểm, ngân sách…"></textarea>
+        </div>
+
+        <button type="submit" class="btn" style="width:100%">Gửi yêu cầu</button>
+      </form>
+
+      <div class="form-msg" data-ok="gui">
+        Cảm ơn bạn! Yêu cầu đã được gửi tới Quốc An Studio. Chúng tôi sẽ liên hệ trong vòng 24 giờ.
+        Cần gấp, vui lòng gọi <strong>{{hotline_1_day}}</strong> hoặc <strong>{{hotline_2_day}}</strong>.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== BẢN ĐỒ ===== -->
+<section class="section section--tint">
+  <div class="wrap">
+    <div class="head reveal">
+      <p class="eyebrow">Bản đồ</p>
+      <h2>Đường đến studio</h2>
+      <div class="divider"><span></span></div>
+      <p>{{dia_chi}}.</p>
+    </div>
+
+    <div class="map-embed reveal">
+      <iframe
+        src="https://www.google.com/maps?q={{dia_chi_url}}&output=embed"
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        title="Bản đồ Quốc An Studio"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ===== KHUYẾN MÃI QR ===== -->
+<section class="section" id="danh-gia">
+  <div class="wrap">
+    <div class="promo reveal">
+      <div class="promo__qr">
+        <div class="promo__qr-box">
+          <!-- QR mở thẳng trang "Studio Quốc An" trên Google Maps (cid=17296204885652745400) -->
+          <img src="https://api.qrserver.com/v1/create-qr-code/?size=400x400&margin=0&data={{google_maps_url}}"
+               alt="Mã QR đánh giá Quốc An Studio trên Google Maps" loading="lazy">
+        </div>
+        <p class="promo__qr-label">Quét mã đánh giá</p>
+      </div>
+
+      <div class="promo__body">
+        <p class="promo__stars">★★★★★</p>
+        <h2>Đánh giá Google Maps — Nhận ngay quà</h2>
+        <p>Check-in liền tay tại Quốc An Studio, để lại một đánh giá 5 sao và nhận quà tặng ngay
+           tại quầy lễ tân.</p>
+        <ol class="promo__steps">
+          <li><b>1</b><span>Quét mã QR bên cạnh</span></li>
+          <li><b>2</b><span>Để lại đánh giá 5 sao cho Quốc An Studio</span></li>
+          <li><b>3</b><span>Chụp màn hình &amp; đưa cho nhân viên tại studio</span></li>
+        </ol>
+        <div class="promo__gift">
+          <span>Quà tặng dành cho bạn</span>
+          <strong>01 Ảnh bàn khổ 15x21 chất liệu Titan cao cấp</strong>
+          <em>Áp dụng khi check-in &amp; đánh giá tại studio</em>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ THANH TOÁN / ĐẶT CỌC ============ -->
+<!-- CMS:thanh-toan -->
+
+<!-- CMS:footer -->
+
+<!-- CMS:nut-noi -->
+
+<script src="assets/js/main.js?v=202609111250"></script>
+</body>
+</html>

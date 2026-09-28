@@ -1,0 +1,17 @@
+# Chi dua len GitHub phan cua website.
+# Anh goc (cac thu muc HINH..., MAM QUA, hau truong...), ban sao luu va file tu sinh o lai tren may.
+/*
+!/.gitignore
+!/netlify.toml
+!/README.md
+!/CAP NHAT WEB.bat
+!/admin/
+!/assets/
+!/data/
+!/templates/
+!/tools/
+
+/tools/__pycache__/
+/tools/.da-tai-len.json
+/tools/cau-hinh-hosting.txt
+/tools/bao-cao-anh-trung.txt

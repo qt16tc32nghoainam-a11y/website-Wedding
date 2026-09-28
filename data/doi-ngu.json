@@ -1,0 +1,85 @@
+{
+  "thanh_vien": [
+    {
+      "ten": "Quốc An",
+      "chuc_danh": "Owner",
+      "gioi_thieu": "Người sáng lập Quốc An Studio. Trực tiếp cầm máy trong các buổi chụp và đứng lớp đào tạo nhiếp ảnh – hậu kỳ.",
+      "anh": "/assets/img/doi-ngu/nv-01.jpg",
+      "facebook": "https://www.facebook.com/lu.vic.509/",
+      "nhan": "Người sáng lập",
+      "noi_bat": true
+    },
+    {
+      "ten": "Dương Huyền",
+      "chuc_danh": "Quản lý & Make-up Artist",
+      "gioi_thieu": "Quản lý nhân sự, phụ trách chuyên môn Makeup và Đào tạo học viên chuyên nghiệp – nâng cao.",
+      "anh": "/assets/img/doi-ngu/nv-02.jpg",
+      "facebook": "https://www.facebook.com/duong.huyen.869417/",
+      "nhan": "",
+      "noi_bat": false
+    },
+    {
+      "ten": "Trọng Linh",
+      "chuc_danh": "Photographer",
+      "gioi_thieu": "Nhiếp ảnh gia của Quốc An Studio, trực tiếp cầm máy trong các buổi chụp ảnh cưới tại phim trường và ngoại cảnh.",
+      "anh": "/assets/img/doi-ngu/nv-03.jpg",
+      "facebook": "https://www.facebook.com/hoang.vann.linh",
+      "nhan": "",
+      "noi_bat": false
+    },
+    {
+      "ten": "Hoài Nam",
+      "chuc_danh": "Photographer",
+      "gioi_thieu": "Nhiếp ảnh gia của Quốc An Studio, trực tiếp cầm máy trong các buổi chụp ảnh cưới tại phim trường và ngoại cảnh.",
+      "anh": "/assets/img/doi-ngu/nv-04.jpg",
+      "facebook": "https://www.facebook.com/nguyen.hoai.nam.889657",
+      "nhan": "",
+      "noi_bat": false
+    },
+    {
+      "ten": "Minh Thuận",
+      "chuc_danh": "Stylist & Support",
+      "gioi_thieu": "Phụ trách trang phục, phụ kiện cho cô dâu chú rể và hỗ trợ ê-kíp trong suốt buổi chụp.",
+      "anh": "/assets/img/doi-ngu/nv-05.jpg",
+      "facebook": "https://www.facebook.com/ben1x0",
+      "nhan": "",
+      "noi_bat": false
+    },
+    {
+      "ten": "Quỳnh Như",
+      "chuc_danh": "Make-up & Chăm sóc khách hàng",
+      "gioi_thieu": "Trang điểm cho cô dâu và chăm sóc khách hàng: tư vấn gói chụp, sắp xếp lịch và giải đáp thắc mắc trước, trong và sau buổi chụp.",
+      "anh": "/assets/img/doi-ngu/nv-06.jpg",
+      "facebook": "https://www.facebook.com/le.quynh.nhu.453725",
+      "nhan": "",
+      "noi_bat": false
+    },
+    {
+      "ten": "Hải Yến",
+      "chuc_danh": "Make-up & Chăm sóc khách hàng",
+      "gioi_thieu": "Trang điểm cô dâu và khách dự tiệc. Hỗ trợ tư vấn, đặt lịch và chăm sóc khách hàng của studio.",
+      "anh": "/assets/img/doi-ngu/nv-07.jpg",
+      "facebook": "https://www.facebook.com/le.thi.hai.yen.751554/",
+      "nhan": "",
+      "noi_bat": false
+    },
+    {
+      "ten": "Đang cập nhật",
+      "chuc_danh": "Ê-kíp set dáng",
+      "gioi_thieu": "Thông tin thành viên sẽ được cập nhật.",
+      "anh": "/assets/img/doi-ngu/avatar-mac-dinh.svg",
+      "facebook": "",
+      "nhan": "",
+      "noi_bat": false
+    },
+    {
+      "ten": "Đang cập nhật",
+      "chuc_danh": "Hậu kỳ",
+      "gioi_thieu": "Thông tin thành viên sẽ được cập nhật.",
+      "anh": "/assets/img/doi-ngu/avatar-mac-dinh.svg",
+      "facebook": "",
+      "nhan": "",
+      "noi_bat": false
+    }
+  ]
+}

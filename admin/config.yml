@@ -1,0 +1,325 @@
+# =====================================================================
+#  TRANG QUAN TRI WEBSITE QUOC AN STUDIO  (Decap CMS)
+#  Mo:  https://quocanstudio.vn/admin   (tren may: CAP NHAT WEB.bat -> muc 2)
+# =====================================================================
+backend:
+  name: github
+  # !!! SUA dong duoi thanh  <ten-tai-khoan-github>/<ten-kho>  sau khi tao kho tren GitHub
+  repo: qt16tc32nghoainam-a11y/website-Wedding
+  branch: main
+  commit_messages:
+    create: 'Tạo {{collection}} “{{slug}}”'
+    update: 'Cập nhật {{collection}} “{{slug}}”'
+    delete: 'Xoá {{collection}} “{{slug}}”'
+    uploadMedia: 'Tải lên ảnh “{{path}}”'
+    deleteMedia: 'Xoá ảnh “{{path}}”'
+
+# Chay tren may (localhost): luu thang vao o dia, khong can dang nhap
+local_backend: true
+
+locale: vi
+site_url: https://quocanstudio.vn
+display_url: https://quocanstudio.vn
+logo_url: /assets/img/logo-mark.png
+
+media_folder: assets/uploads
+public_folder: /assets/uploads
+
+collections:
+  - name: noi-dung
+    label: "Nội dung website"
+    editor:
+      preview: false
+    files:
+
+      # ------------------------------------------------------------------ BANG GIA
+      - label: "💰 Bảng giá"
+        name: bang-gia
+        file: data/bang-gia.json
+        fields:
+          - label: "Các mục trong trang Bảng giá"
+            name: muc
+            widget: list
+            summary: "{{fields.tieu_de}}"
+            collapsed: true
+            hint: "Kéo thả để đổi thứ tự. Mỗi mục là một khối trên trang Bảng giá."
+            fields:
+              - {label: "Mã mục (không dấu, không cách — dùng cho link)", name: ma, widget: string, hint: "Ví dụ: goi-cuoi. Đừng đổi nếu không cần."}
+              - {label: "Tên trên thanh chọn nhanh", name: nhan_menu, widget: string, required: false}
+              - {label: "Chữ nhỏ phía trên tiêu đề", name: nhan_nho, widget: string, required: false}
+              - {label: "Tiêu đề", name: tieu_de, widget: string}
+              - {label: "Mô tả ngắn", name: mo_ta, widget: text, required: false}
+              - label: "Kiểu trình bày"
+                name: kieu
+                widget: select
+                options:
+                  - {label: "Thẻ gói (giá + danh sách)", value: the}
+                  - {label: "Thẻ nhiều mức giá (vd: ảnh cổng)", value: cong}
+                  - {label: "Bảng giá dạng bảng", value: bang}
+                  - {label: "Ảnh bảng giá", value: anh}
+              - label: "Các gói (kiểu Thẻ gói / Thẻ nhiều mức giá)"
+                name: goi
+                widget: list
+                required: false
+                collapsed: true
+                summary: "{{fields.ten}} — {{fields.gia}}"
+                fields:
+                  - {label: "Tên gói", name: ten, widget: string}
+                  - {label: "Dòng phụ dưới tên", name: mo_ta, widget: string, required: false}
+                  - {label: "Giá (kiểu Thẻ gói) — vd 6.000.000", name: gia, widget: string, required: false}
+                  - {label: "Đơn vị giá (kiểu Thẻ gói) — vd Trọn gói", name: don_vi, widget: string, required: false}
+                  - {label: "Nhãn nổi bật — vd Đầy đủ nhất", name: nhan, widget: string, required: false}
+                  - {label: "Làm nổi bật gói này", name: noi_bat, widget: boolean, required: false, default: false}
+                  - label: "Các mức giá (kiểu Thẻ nhiều mức giá)"
+                    name: lua_chon
+                    widget: list
+                    required: false
+                    summary: "{{fields.ten}} — {{fields.gia}}"
+                    fields:
+                      - {label: "Tên lựa chọn", name: ten, widget: string}
+                      - {label: "Giá", name: gia, widget: string}
+                      - {label: "Tô đậm (khuyên dùng)", name: noi_bat, widget: boolean, required: false, default: false}
+                  - label: "Các nhóm danh sách"
+                    name: nhom
+                    widget: list
+                    required: false
+                    summary: "{{fields.tieu_de}}"
+                    fields:
+                      - {label: "Tiêu đề nhóm (để trống nếu không cần)", name: tieu_de, widget: string, required: false}
+                      - label: "Kiểu nhóm (kiểu Thẻ gói)"
+                        name: kieu
+                        widget: select
+                        required: false
+                        default: thuong
+                        options:
+                          - {label: "Danh sách thường", value: thuong}
+                          - {label: "Danh sách 2 cột", value: 2cot}
+                          - {label: "Hộp quà tặng", value: qua}
+                      - {label: "Các dòng", name: muc, widget: list, field: {label: "Dòng", name: dong, widget: string}, hint: "Viết **chữ** để in đậm."}
+                  - {label: "Nút phụ — chữ (không bắt buộc)", name: nut_chu, widget: string, required: false}
+                  - {label: "Nút phụ — link", name: nut_link, widget: string, required: false}
+              - {label: "Tên 2 cột (kiểu Bảng)", name: cot, widget: list, required: false, field: {label: "Cột", name: cot, widget: string}}
+              - label: "Các dòng (kiểu Bảng)"
+                name: dong
+                widget: list
+                required: false
+                summary: "{{fields.ten}} — {{fields.gia}}"
+                fields:
+                  - {label: "Tên dịch vụ", name: ten, widget: string}
+                  - {label: "Giá — vd 2.300.000đ", name: gia, widget: string}
+              - label: "Ảnh bảng giá (kiểu Ảnh)"
+                name: anh
+                widget: list
+                required: false
+                summary: "{{fields.tieu_de}}"
+                fields:
+                  - {label: "Tiêu đề", name: tieu_de, widget: string}
+                  - {label: "Nhóm", name: nhom, widget: string, required: false}
+                  - {label: "Chú thích khi xem lớn", name: chu_thich, widget: string, required: false}
+                  - {label: "Ảnh", name: anh, widget: image}
+                  - {label: "Ảnh nhỏ (không bắt buộc)", name: anh_nho, widget: image, required: false}
+              - label: "Ô lưu ý bên dưới (không bắt buộc)"
+                name: luu_y
+                widget: object
+                required: false
+                collapsed: true
+                fields:
+                  - {label: "Tiêu đề", name: tieu_de, widget: string, required: false}
+                  - {label: "Các dòng", name: muc, widget: list, required: false, field: {label: "Dòng", name: dong, widget: string}}
+          - label: "3 thẻ giá tóm tắt ở Trang chủ"
+            name: tom_tat_trang_chu
+            widget: list
+            collapsed: true
+            summary: "{{fields.ten}} — {{fields.gia}}"
+            fields:
+              - {label: "Tên", name: ten, widget: string}
+              - {label: "Mô tả", name: mo_ta, widget: string, required: false}
+              - {label: "Giá — vd từ 6.000.000", name: gia, widget: string}
+              - {label: "Dòng dưới giá", name: don_vi, widget: string, required: false}
+              - {label: "Nhãn nổi bật", name: nhan, widget: string, required: false}
+              - {label: "Làm nổi bật", name: noi_bat, widget: boolean, required: false, default: false}
+              - {label: "Các dòng", name: muc, widget: list, field: {label: "Dòng", name: dong, widget: string}}
+              - {label: "Link nút Xem chi tiết", name: link, widget: string, required: false, default: "bang-gia.html"}
+
+      # ------------------------------------------------------------------ BO SUU TAP
+      - label: "📷 Bộ sưu tập (album ảnh)"
+        name: bo-suu-tap
+        file: data/bo-suu-tap.json
+        fields:
+          - label: "Album"
+            name: album
+            widget: list
+            collapsed: true
+            summary: "{{fields.ten}}  ({{fields.danh_muc}})"
+            hint: "Thêm album mới: bấm Add album, chọn danh mục, đặt tên, rồi thêm từng ảnh. Trên web, album trong mỗi danh mục tự xếp theo Ngày chụp từ cũ đến mới."
+            fields:
+              - label: "Danh mục"
+                name: danh_muc
+                widget: select
+                options:
+                  - {label: "Ngoại cảnh", value: ngoai-canh}
+                  - {label: "Phim trường", value: phim-truong}
+                  - {label: "Studio", value: studio}
+                  - {label: "Concept Beauty", value: beauty}
+                  - {label: "Make-up cô dâu", value: make-up}
+                  - {label: "Phóng sự cưới", value: phong-su}
+                  - {label: "Đám hỏi", value: dam-hoi}
+                  - {label: "Mâm quả cưới hỏi", value: mam-qua}
+                  - {label: "Gia đình & Baby", value: gia-dinh}
+                  - {label: "Hậu trường", value: hau-truong}
+              - {label: "Tên album — cặp đôi ghi TÊN CHÚ RỂ & TÊN CÔ DÂU", name: ten, widget: string}
+              - {label: "Ngày chụp (album xếp từ cũ đến mới theo ngày này)", name: ngay, widget: datetime, format: "YYYY-MM-DDTHH:mm", date_format: "DD/MM/YYYY", time_format: "HH:mm", required: false}
+              - {label: "Ảnh bìa (để trống = dùng ảnh đầu tiên)", name: anh_bia, widget: image, required: false}
+              - {label: "Các ảnh trong album", name: anh, widget: list, field: {label: "Ảnh", name: anh, widget: image}}
+              - {label: "Nguồn", name: nguon, widget: hidden, default: cms}
+          - label: "Danh mục (chỉ sửa tên hiển thị)"
+            name: danh_muc
+            widget: list
+            collapsed: true
+            allow_add: false
+            summary: "{{fields.ten}}"
+            fields:
+              - {label: "Mã (không sửa)", name: ma, widget: string}
+              - {label: "Tên hiển thị", name: ten, widget: string}
+              - {label: "Thư mục ảnh trên máy", name: thu_muc, widget: string, required: false}
+              - {label: "Chữ ở ô trống khi chưa có album", name: nhan_trong, widget: list, required: false, field: {label: "Chữ", name: chu, widget: string}}
+
+      # ------------------------------------------------------------------ DOI NGU
+      - label: "👥 Đội ngũ"
+        name: doi-ngu
+        file: data/doi-ngu.json
+        fields:
+          - label: "Thành viên"
+            name: thanh_vien
+            widget: list
+            collapsed: true
+            summary: "{{fields.ten}} — {{fields.chuc_danh}}"
+            fields:
+              - {label: "Họ tên", name: ten, widget: string}
+              - {label: "Chức danh", name: chuc_danh, widget: string}
+              - {label: "Giới thiệu", name: gioi_thieu, widget: text, required: false}
+              - {label: "Ảnh đại diện (ảnh vuông đẹp nhất)", name: anh, widget: image, required: false}
+              - {label: "Link Facebook", name: facebook, widget: string, required: false, hint: "Dán link trang Facebook cá nhân. Để trống = hiện 'Chưa có Facebook'."}
+              - {label: "Nhãn trên thẻ — vd Người sáng lập", name: nhan, widget: string, required: false}
+              - {label: "Làm nổi bật thẻ này", name: noi_bat, widget: boolean, required: false, default: false}
+
+      # ------------------------------------------------------------------ DANH GIA
+      - label: "⭐ Đánh giá khách hàng"
+        name: danh-gia
+        file: data/danh-gia.json
+        fields:
+          - {label: "Fanpage — % giới thiệu (vd 98%)", name: facebook_phan_tram, widget: string}
+          - {label: "Fanpage — số đánh giá (vd 37)", name: facebook_so_danh_gia, widget: string}
+          - {label: "Google Maps — điểm (vd 5,0)", name: google_diem, widget: string}
+          - label: "Các đánh giá"
+            name: danh_gia
+            widget: list
+            collapsed: true
+            summary: "{{fields.ten}} — {{fields.nguon}} — {{fields.ngay}}"
+            hint: "Chỉ đăng đánh giá thật, chép nguyên văn lời khách. Trên web xếp mới nhất trước; mỗi đánh giá tự lấy 1 ảnh đẹp trong Bộ sưu tập (hoặc ảnh của album ghi ở ô Album liên quan)."
+            fields:
+              - {label: "Tên khách (như trên Facebook / Google)", name: ten, widget: string}
+              - label: "Nguồn"
+                name: nguon
+                widget: select
+                options: ["Facebook", "Google Maps"]
+              - {label: "Ngày đăng", name: ngay, widget: datetime, format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false}
+              - {label: "Lời khách (giữ nguyên văn)", name: noi_dung, widget: text}
+              - {label: "Khách có đề xuất (Facebook) — bỏ tick = không hiện trên web", name: de_xuat, widget: boolean, required: false, default: true}
+              - {label: "Số sao (Google)", name: so_sao, widget: number, value_type: int, min: 1, max: 5, default: 5, required: false}
+              - {label: "Album liên quan (gõ đúng tên album trong Bộ sưu tập, vd Kiều Diễm)", name: album, widget: string, required: false}
+              - {label: "Ảnh bên trái (để trống = tự chọn ảnh đẹp)", name: anh, widget: image, required: false}
+              - {label: "Ảnh đại diện khách (để trống = chữ cái đầu)", name: anh_dai_dien, widget: image, required: false}
+              - {label: "Ảnh chụp màn hình đánh giá gốc", name: anh_chup_goc, widget: image, required: false}
+              - {label: "Ghim lên đầu", name: ghim, widget: boolean, required: false, default: false}
+
+      # ------------------------------------------------------------------ TUYEN DUNG
+      - label: "📝 Tuyển dụng"
+        name: tuyen-dung
+        file: data/tuyen-dung.json
+        fields:
+          - label: "Vị trí đang tuyển"
+            name: viec_lam
+            widget: list
+            collapsed: true
+            summary: "{{fields.ten}}"
+            hint: "Tên vị trí cũng tự hiện trong ô chọn của form ứng tuyển."
+            fields:
+              - {label: "Tên vị trí", name: ten, widget: string}
+              - label: "Nhãn (số lượng, hình thức, lương...)"
+                name: nhan
+                widget: list
+                required: false
+                summary: "{{fields.chu}}"
+                fields:
+                  - {label: "Chữ", name: chu, widget: string}
+                  - {label: "Tô đỏ (vd Tuyển gấp)", name: noi_bat, widget: boolean, required: false, default: false}
+              - label: "Nội dung"
+                name: nhom
+                widget: list
+                required: false
+                summary: "{{fields.tieu_de}}"
+                fields:
+                  - {label: "Tiêu đề — vd Mô tả công việc", name: tieu_de, widget: string}
+                  - {label: "Các dòng", name: muc, widget: list, field: {label: "Dòng", name: dong, widget: string}}
+
+      # ------------------------------------------------------------------ BANNER
+      - label: "🖼️ Banner trang chủ"
+        name: banner
+        file: data/banner.json
+        fields:
+          - label: "Ảnh chạy trên banner"
+            name: anh
+            widget: list
+            hint: "Ảnh ngang. Ảnh tải lên được tự cắt 1600×900 (máy tính) và 1080×810 (điện thoại)."
+            fields:
+              - {label: "Ảnh", name: anh, widget: image}
+              - {label: "Ảnh riêng cho điện thoại (không bắt buộc)", name: anh_dien_thoai, widget: image, required: false}
+
+      # ------------------------------------------------------------------ NHAC NEN
+      - label: "🎵 Nhạc nền"
+        name: nhac-nen
+        file: data/nhac-nen.json
+        fields:
+          - {label: "Bật nhạc nền", name: bat, widget: boolean, default: true,
+             hint: "Nhạc phát khi khách chạm/bấm lần đầu vào trang (trình duyệt không cho tự phát trước đó). Có nút 🎵 góc trái dưới để khách tắt."}
+          - {label: "File nhạc (mp3)", name: file, widget: file, required: false,
+             hint: "Nên dưới 5 MB. Chỉ dùng nhạc có giấy phép (nhạc tải từ YouTube / bài hát thương mại sẽ vi phạm bản quyền). Bỏ bài vào thư mục mp3 trong BT3 rồi chạy mục 1 thì máy tự nén cho nhẹ."}
+          - {label: "Ghi nguồn — Tên bài — Tác giả (hiện nhỏ ở chân trang)", name: ghi_nguon, widget: string, required: false}
+          - {label: "Âm lượng (%)", name: am_luong, widget: number, value_type: int, min: 5, max: 100, default: 30}
+          - {label: "goc", name: goc, widget: hidden, required: false}
+
+      # ------------------------------------------------------------------ LIEN HE
+      - label: "📞 Thông tin liên hệ & chuyển khoản"
+        name: lien-he
+        file: data/lien-he.json
+        fields:
+          - {label: "Tên studio", name: ten_studio, widget: string}
+          - {label: "Địa chỉ", name: dia_chi, widget: string}
+          - {label: "Hotline 1", name: hotline_1, widget: string}
+          - {label: "Hotline 1 — tên người nghe (vd Mr An)", name: hotline_1_ten, widget: string, required: false}
+          - {label: "Hotline 2", name: hotline_2, widget: string, required: false}
+          - {label: "Hotline 2 — tên người nghe (vd Mrs Huyền)", name: hotline_2_ten, widget: string, required: false}
+          - {label: "Số Zalo", name: zalo, widget: string}
+          - {label: "Email (nhận form đặt lịch)", name: email, widget: string}
+          - {label: "Ngày mở cửa — vd Thứ 2 – Chủ nhật", name: ngay_mo_cua, widget: string, required: false}
+          - {label: "Giờ mở cửa — vd 8:00 – 20:00", name: gio_mo_cua, widget: string}
+          - {label: "Link Google Maps", name: google_maps, widget: string}
+          - {label: "Link Fanpage", name: fanpage, widget: string}
+          - {label: "Tên Fanpage", name: fanpage_ten, widget: string, required: false}
+          - {label: "Link Facebook cá nhân", name: facebook_ca_nhan, widget: string, required: false}
+          - {label: "Tên Facebook cá nhân", name: facebook_ca_nhan_ten, widget: string, required: false}
+          - {label: "Link Instagram", name: instagram, widget: string, required: false}
+          - {label: "Tên Instagram — vd @lu.vic.509", name: instagram_ten, widget: string, required: false}
+          - label: "Tài khoản ngân hàng (khối Thanh toán cuối mỗi trang)"
+            name: tai_khoan
+            widget: list
+            summary: "{{fields.chu_tk}} — {{fields.so_tk}}"
+            fields:
+              - {label: "Nhãn — vd Tài khoản chính", name: nhan, widget: string}
+              - {label: "Là tài khoản chính", name: chinh, widget: boolean, required: false, default: false}
+              - {label: "Chủ tài khoản", name: chu_tk, widget: string}
+              - {label: "Số tài khoản", name: so_tk, widget: string}
+              - {label: "Ngân hàng / chi nhánh", name: ngan_hang, widget: string}
+              - {label: "Ảnh mã QR", name: qr, widget: image}
+              - {label: "Mô tả ảnh QR", name: mo_ta_qr, widget: string, required: false}

@@ -1,0 +1,52 @@
+{
+  "anh": [
+    {
+      "anh": "/assets/img/banner-01.jpg",
+      "anh_dien_thoai": "/assets/img/banner-m01.jpg"
+    },
+    {
+      "anh": "/assets/img/banner-02.jpg",
+      "anh_dien_thoai": "/assets/img/banner-m02.jpg"
+    },
+    {
+      "anh": "/assets/img/banner-03.jpg",
+      "anh_dien_thoai": "/assets/img/banner-m03.jpg"
+    },
+    {
+      "anh": "/assets/img/banner-04.jpg",
+      "anh_dien_thoai": "/assets/img/banner-m04.jpg"
+    },
+    {
+      "anh": "/assets/img/banner-05.jpg",
+      "anh_dien_thoai": "/assets/img/banner-m05.jpg"
+    },
+    {
+      "anh": "/assets/img/banner-06.jpg",
+      "anh_dien_thoai": "/assets/img/banner-m06.jpg"
+    },
+    {
+      "anh": "/assets/img/banner-07.jpg",
+      "anh_dien_thoai": "/assets/img/banner-m07.jpg"
+    },
+    {
+      "anh": "/assets/img/banner-08.jpg",
+      "anh_dien_thoai": "/assets/img/banner-m08.jpg"
+    },
+    {
+      "anh": "/assets/img/banner-09.jpg",
+      "anh_dien_thoai": "/assets/img/banner-m09.jpg"
+    },
+    {
+      "anh": "/assets/img/banner-10.jpg",
+      "anh_dien_thoai": "/assets/img/banner-m10.jpg"
+    },
+    {
+      "anh": "/assets/img/banner-11.jpg",
+      "anh_dien_thoai": "/assets/img/banner-m11.jpg"
+    },
+    {
+      "anh": "/assets/img/banner-12.jpg",
+      "anh_dien_thoai": "/assets/img/banner-m12.jpg"
+    }
+  ]
+}

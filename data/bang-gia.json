@@ -1,0 +1,682 @@
+{
+  "muc": [
+    {
+      "ma": "goi-cuoi",
+      "nhan_menu": "Gói cưới trọn gói",
+      "nhan_nho": "Ngày cưới",
+      "tieu_de": "Gói cưới trọn gói",
+      "mo_ta": "Trọn bộ trang phục, trang điểm và chụp tiệc truyền thống cho ngày trọng đại — kèm gói quà tặng cho gia đình hai bên.",
+      "kieu": "the",
+      "goi": [
+        {
+          "ten": "1 Ngày Cưới",
+          "mo_ta": "Cơ Bản",
+          "gia": "6.000.000",
+          "don_vi": "Trọn gói",
+          "nhan": "",
+          "noi_bat": false,
+          "nhom": [
+            {
+              "tieu_de": "",
+              "kieu": "thuong",
+              "muc": [
+                "1 váy cưới luxury (tùng to)",
+                "1 váy nhẹ đi bàn (cơ bản)",
+                "1 vest chú rể",
+                "1 lần makeup cô dâu tại tiệm",
+                "1 máy chụp tiệc truyền thống (giao file chính)"
+              ]
+            },
+            {
+              "tieu_de": "Gói quà tặng",
+              "kieu": "qua",
+              "muc": [
+                "Tặng 1 áo dài bà sui",
+                "Tặng 1 vest ông sui"
+              ]
+            }
+          ]
+        },
+        {
+          "ten": "1 Ngày Cưới VIP",
+          "mo_ta": "Váy cưới dòng VIP",
+          "gia": "7.000.000",
+          "don_vi": "Trọn gói",
+          "nhan": "",
+          "noi_bat": false,
+          "nhom": [
+            {
+              "tieu_de": "",
+              "kieu": "thuong",
+              "muc": [
+                "1 váy cưới luxury (VIP)",
+                "1 váy nhẹ đi bàn (VIP)",
+                "1 vest chú rể",
+                "1 lần makeup cô dâu tại tiệm",
+                "1 máy chụp tiệc truyền thống (giao file chính)"
+              ]
+            },
+            {
+              "tieu_de": "Gói quà tặng",
+              "kieu": "qua",
+              "muc": [
+                "Tặng 1 áo dài bà sui",
+                "Tặng 1 vest ông sui"
+              ]
+            }
+          ]
+        },
+        {
+          "ten": "2 Ngày Cưới",
+          "mo_ta": "Cơ Bản — đủ cho cả hai ngày",
+          "gia": "11.500.000",
+          "don_vi": "Trọn gói",
+          "nhan": "",
+          "noi_bat": false,
+          "nhom": [
+            {
+              "tieu_de": "",
+              "kieu": "thuong",
+              "muc": [
+                "2 váy cưới luxury (tùng to)",
+                "2 váy nhẹ đi bàn (cơ bản)",
+                "2 vest chú rể",
+                "1 áo dài dâu",
+                "1 áo dài rể",
+                "2 lần makeup cô dâu tại tiệm",
+                "2 máy chụp tiệc truyền thống (giao file chỉnh sửa)"
+              ]
+            },
+            {
+              "tieu_de": "Gói quà tặng",
+              "kieu": "qua",
+              "muc": [
+                "Tặng 2 vest ông sui",
+                "Tặng 2 áo dài bà sui",
+                "Tặng 6 áo dài bê quả nữ"
+              ]
+            }
+          ]
+        },
+        {
+          "ten": "2 Ngày Cưới VIP",
+          "mo_ta": "Váy cưới dòng VIP",
+          "gia": "13.900.000",
+          "don_vi": "Trọn gói",
+          "nhan": "Đầy đủ nhất",
+          "noi_bat": true,
+          "nhom": [
+            {
+              "tieu_de": "",
+              "kieu": "thuong",
+              "muc": [
+                "2 váy cưới luxury VIP",
+                "2 váy nhẹ đi bàn VIP",
+                "2 vest chú rể",
+                "1 áo dài dâu",
+                "1 áo dài rể",
+                "2 lần makeup cô dâu tại tiệm",
+                "2 máy chụp tiệc truyền thống (giao file chỉnh sửa)"
+              ]
+            },
+            {
+              "tieu_de": "Gói quà tặng",
+              "kieu": "qua",
+              "muc": [
+                "Tặng 2 vest ông sui",
+                "Tặng 2 áo dài bà sui",
+                "Tặng 6 áo dài bê quả nữ"
+              ]
+            }
+          ]
+        }
+      ],
+      "luu_y": {
+        "tieu_de": "Lưu ý",
+        "muc": [
+          "Gói quà tặng không lấy, **không quy đổi thành tiền**."
+        ]
+      }
+    },
+    {
+      "ma": "dam-hoi",
+      "nhan_menu": "Gói đám hỏi",
+      "nhan_nho": "Lễ đính hôn",
+      "tieu_de": "Gói đám hỏi",
+      "mo_ta": "Gói thuê đồ trọn ngày đám hỏi cho cô dâu, chú rể và đội bê quả.",
+      "kieu": "cong",
+      "goi": [
+        {
+          "ten": "Gói thuê đồ ngày đám hỏi",
+          "mo_ta": "Trọn gói một ngày",
+          "lua_chon": [
+            {
+              "ten": "Giá trọn gói",
+              "gia": "4.900.000",
+              "noi_bat": true
+            }
+          ],
+          "nhom": [
+            {
+              "tieu_de": "Bao gồm chi tiết",
+              "muc": [
+                "01 áo dài cô dâu",
+                "01 áo dài chú rể",
+                "01 lần makeup dâu tại tiệm",
+                "06 áo dài bê quả nữ",
+                "01 máy chụp truyền thống (giao file chính)"
+              ]
+            },
+            {
+              "tieu_de": "Gói quà tặng",
+              "muc": [
+                "01 áo dài bà sui",
+                "01 vest ông sui",
+                "06 nơ cho bê quả nam"
+              ]
+            }
+          ],
+          "nut_chu": "",
+          "nut_link": ""
+        },
+        {
+          "ten": "Chụp ngày đám hỏi",
+          "mo_ta": "Đặt riêng, không kèm thuê đồ",
+          "lua_chon": [
+            {
+              "ten": "Chụp đám hỏi (đính hôn)",
+              "gia": "2.300.000",
+              "noi_bat": false
+            },
+            {
+              "ten": "Chụp lễ nhà thờ",
+              "gia": "2.000.000",
+              "noi_bat": false
+            }
+          ],
+          "nhom": [
+            {
+              "tieu_de": "Ghi chú",
+              "muc": [
+                "Hai mức giá trên nằm trong bảng giá chụp tiệc cưới, đặt riêng được.",
+                "Gói thuê đồ ngày đám hỏi đã bao gồm sẵn 01 máy chụp truyền thống.",
+                "Gói quà tặng không lấy, không quy đổi thành tiền."
+              ]
+            }
+          ],
+          "nut_chu": "Xem bảng giá chụp tiệc",
+          "nut_link": "#tiec-cuoi"
+        }
+      ],
+      "luu_y": {
+        "tieu_de": "",
+        "muc": []
+      }
+    },
+    {
+      "ma": "album",
+      "nhan_menu": "Gói chụp album",
+      "nhan_nho": "Chụp album",
+      "tieu_de": "Gói chụp album cưới",
+      "mo_ta": "Chọn theo địa điểm chụp. Mọi gói đều gồm 3 trang phục cô dâu, 3 trang phục chú rể và chụp 3 concept.",
+      "kieu": "the",
+      "goi": [
+        {
+          "ten": "Phim trường tại Studio",
+          "mo_ta": "Phim trường riêng — không tốn phí thuê cảnh",
+          "gia": "6.900.000",
+          "don_vi": "Trọn gói",
+          "nhan": "Phim trường độc quyền",
+          "noi_bat": true,
+          "nhom": [
+            {
+              "tieu_de": "Buổi chụp bao gồm",
+              "kieu": "2cot",
+              "muc": [
+                "3 trang phục cô dâu",
+                "3 trang phục chú rể",
+                "1 lần makeup tại studio",
+                "3 kiểu tóc cho dâu",
+                "Hoa cầm tay",
+                "Ê-kíp hỗ trợ set dáng",
+                "Chụp 3 concept"
+              ]
+            },
+            {
+              "tieu_de": "Sản phẩm nhận được",
+              "kieu": "2cot",
+              "muc": [
+                "2 ảnh cổng 60x90 gỗ cao cấp",
+                "5 ảnh bàn 15x21 titan cao cấp",
+                "1 album 25x35 (20 trang)",
+                "1 hộp đựng album cao cấp"
+              ]
+            }
+          ]
+        },
+        {
+          "ten": "Phim trường Sachi Garden",
+          "mo_ta": "Bao phí phim trường & xe di chuyển",
+          "gia": "7.900.000",
+          "don_vi": "Trọn gói",
+          "nhan": "",
+          "noi_bat": false,
+          "nhom": [
+            {
+              "tieu_de": "Buổi chụp bao gồm",
+              "kieu": "2cot",
+              "muc": [
+                "3 trang phục cô dâu",
+                "3 trang phục chú rể",
+                "1 lần makeup tại studio",
+                "3 kiểu tóc cho dâu",
+                "Hoa cầm tay",
+                "Ê-kíp hỗ trợ set dáng",
+                "Chụp 3 concept",
+                "Bao phí phim trường + xe di chuyển"
+              ]
+            },
+            {
+              "tieu_de": "Sản phẩm nhận được",
+              "kieu": "2cot",
+              "muc": [
+                "2 ảnh cổng 60x90 gỗ cao cấp",
+                "5 ảnh bàn 15x21 titan cao cấp",
+                "1 album 25x35 (20 trang)",
+                "1 hộp đựng album cao cấp"
+              ]
+            }
+          ]
+        },
+        {
+          "ten": "Phim trường Sài Gòn",
+          "mo_ta": "Bao phí phim trường & xe di chuyển",
+          "gia": "8.900.000",
+          "don_vi": "Trọn gói",
+          "nhan": "",
+          "noi_bat": false,
+          "nhom": [
+            {
+              "tieu_de": "Buổi chụp bao gồm",
+              "kieu": "2cot",
+              "muc": [
+                "3 trang phục cô dâu",
+                "3 trang phục chú rể",
+                "1 lần makeup tại studio",
+                "3 kiểu tóc cho dâu",
+                "Hoa cầm tay",
+                "Ê-kíp hỗ trợ set dáng",
+                "Chụp 3 concept",
+                "Bao phí phim trường + xe di chuyển"
+              ]
+            },
+            {
+              "tieu_de": "Sản phẩm nhận được",
+              "kieu": "2cot",
+              "muc": [
+                "2 ảnh cổng 60x90 gỗ cao cấp",
+                "5 ảnh bàn 15x21 titan cao cấp",
+                "1 album 25x35 (20 trang)",
+                "1 hộp đựng album cao cấp"
+              ]
+            }
+          ]
+        },
+        {
+          "ten": "Ngoại cảnh Vũng Tàu",
+          "mo_ta": "Bao xe di chuyển",
+          "gia": "8.900.000",
+          "don_vi": "Trọn gói",
+          "nhan": "",
+          "noi_bat": false,
+          "nhom": [
+            {
+              "tieu_de": "Buổi chụp bao gồm",
+              "kieu": "2cot",
+              "muc": [
+                "3 trang phục cô dâu",
+                "3 trang phục chú rể",
+                "1 lần makeup tại studio",
+                "3 kiểu tóc cho dâu",
+                "Hoa cầm tay",
+                "Ê-kíp hỗ trợ set dáng",
+                "Chụp 3 concept",
+                "Xe di chuyển"
+              ]
+            },
+            {
+              "tieu_de": "Sản phẩm nhận được",
+              "kieu": "2cot",
+              "muc": [
+                "2 ảnh cổng 60x90 gỗ cao cấp",
+                "5 ảnh bàn 15x21 titan cao cấp",
+                "1 album 25x35 (20 trang)",
+                "1 hộp đựng album cao cấp"
+              ]
+            }
+          ]
+        },
+        {
+          "ten": "Vũ Garden",
+          "mo_ta": "Bao phí phim trường & xe di chuyển",
+          "gia": "9.900.000",
+          "don_vi": "Trọn gói",
+          "nhan": "Cao cấp nhất",
+          "noi_bat": true,
+          "nhom": [
+            {
+              "tieu_de": "Buổi chụp bao gồm",
+              "kieu": "2cot",
+              "muc": [
+                "3 trang phục cô dâu",
+                "3 trang phục chú rể",
+                "1 lần makeup tại studio",
+                "3 kiểu tóc cho dâu",
+                "Hoa cầm tay",
+                "Ê-kíp hỗ trợ set dáng",
+                "Chụp 3 concept",
+                "Bao phí phim trường + xe di chuyển"
+              ]
+            },
+            {
+              "tieu_de": "Sản phẩm nhận được",
+              "kieu": "2cot",
+              "muc": [
+                "2 ảnh cổng 60x90 gỗ cao cấp",
+                "5 ảnh bàn 15x21 titan cao cấp",
+                "1 album 25x35 (20 trang)",
+                "1 hộp đựng album cao cấp"
+              ]
+            }
+          ]
+        }
+      ],
+      "luu_y": {
+        "tieu_de": "",
+        "muc": []
+      }
+    },
+    {
+      "ma": "anh-cong",
+      "nhan_menu": "Gói ảnh cổng",
+      "nhan_nho": "Ảnh cổng",
+      "tieu_de": "Gói ảnh cổng",
+      "mo_ta": "Chụp tại studio, chọn chất liệu ảnh theo ý hai bạn.",
+      "kieu": "cong",
+      "goi": [
+        {
+          "ten": "Gói 1 ảnh cổng",
+          "mo_ta": "Chụp 1 concept",
+          "lua_chon": [
+            {
+              "ten": "01 ảnh gỗ bo viền",
+              "gia": "1.800.000",
+              "noi_bat": false
+            },
+            {
+              "ten": "01 ảnh titan trắng gương cao cấp",
+              "gia": "2.300.000",
+              "noi_bat": true
+            }
+          ],
+          "nhom": [
+            {
+              "tieu_de": "Buổi chụp bao gồm",
+              "muc": [
+                "1 trang phục cô dâu",
+                "1 trang phục chú rể",
+                "1 lần makeup tại studio",
+                "1 lần làm tóc",
+                "Hoa cầm tay + phụ kiện",
+                "Ê-kíp hỗ trợ set dáng",
+                "Chụp 1 concept (được chụp góc phim trường tại studio, không phát sinh phí)"
+              ]
+            },
+            {
+              "tieu_de": "Sản phẩm nhận được",
+              "muc": [
+                "1 ảnh 60x90 (gỗ bo viền hoặc titan trắng gương cao cấp)",
+                "5 ảnh lụa 13x18",
+                "Giao toàn bộ ảnh gốc",
+                "6 ảnh chỉnh sửa"
+              ]
+            }
+          ],
+          "nut_chu": "",
+          "nut_link": ""
+        },
+        {
+          "ten": "Gói 2 ảnh cổng",
+          "mo_ta": "Chụp 2 concept",
+          "lua_chon": [
+            {
+              "ten": "02 ảnh gỗ bo viền",
+              "gia": "3.200.000",
+              "noi_bat": false
+            },
+            {
+              "ten": "02 ảnh titan trắng gương cao cấp",
+              "gia": "4.200.000",
+              "noi_bat": true
+            }
+          ],
+          "nhom": [
+            {
+              "tieu_de": "Buổi chụp bao gồm",
+              "muc": [
+                "2 trang phục cô dâu",
+                "2 trang phục chú rể",
+                "1 lần makeup tại studio",
+                "2 lần làm tóc",
+                "Hoa cầm tay + phụ kiện",
+                "Ê-kíp hỗ trợ set dáng",
+                "Chụp 2 concept (được chụp góc phim trường tại studio, không phát sinh phí)"
+              ]
+            },
+            {
+              "tieu_de": "Sản phẩm nhận được",
+              "muc": [
+                "2 ảnh 60x90 (gỗ bo viền hoặc titan trắng gương cao cấp)",
+                "5 ảnh 15x21 titan cao cấp",
+                "Giao toàn bộ ảnh gốc",
+                "7 ảnh chỉnh sửa"
+              ]
+            }
+          ],
+          "nut_chu": "",
+          "nut_link": ""
+        }
+      ],
+      "luu_y": {
+        "tieu_de": "",
+        "muc": []
+      }
+    },
+    {
+      "ma": "tiec-cuoi",
+      "nhan_menu": "Chụp tiệc cưới",
+      "nhan_nho": "Ngày tiệc",
+      "tieu_de": "Bảng giá chụp tiệc cưới",
+      "mo_ta": "Trọn khoảnh khắc — vẹn yêu thương. Các gói dưới đây đặt riêng, không cần kèm gói cưới.",
+      "kieu": "bang",
+      "cot": [
+        "Gói chụp tiệc cưới",
+        "Giá"
+      ],
+      "dong": [
+        {
+          "ten": "Chụp truyền thống",
+          "gia": "2.300.000đ"
+        },
+        {
+          "ten": "Chụp truyền thống pha phóng sự",
+          "gia": "3.500.000đ"
+        },
+        {
+          "ten": "Chụp phóng sự cưới",
+          "gia": "3.000.000đ"
+        },
+        {
+          "ten": "Chụp lễ nhà thờ",
+          "gia": "2.000.000đ"
+        },
+        {
+          "ten": "Chụp đám hỏi (đính hôn)",
+          "gia": "2.300.000đ"
+        },
+        {
+          "ten": "Quay phóng sự cưới",
+          "gia": "5.500.000đ"
+        }
+      ],
+      "luu_y": {
+        "tieu_de": "Dịch vụ rửa ảnh",
+        "muc": [
+          "Rửa ảnh tiệc: **10.000đ / tấm**.",
+          "Rửa trên 100 ảnh: **tặng 1 cuốn album bìa cao cấp**."
+        ]
+      }
+    },
+    {
+      "ma": "bang-gia-anh",
+      "nhan_menu": "Bảng giá dạng ảnh",
+      "nhan_nho": "Bảng giá gốc",
+      "tieu_de": "Xem bảng giá dạng ảnh",
+      "mo_ta": "Bấm vào từng tấm để xem lớn.",
+      "kieu": "anh",
+      "anh": [
+        {
+          "tieu_de": "Gói 2 ngày cưới",
+          "nhom": "Gói cưới trọn gói",
+          "chu_thich": "Gói 2 ngày cưới — 11.500.000đ & 13.900.000đ",
+          "anh": "/assets/img/bang-gia/bg-cuoi-2ngay.jpg",
+          "anh_nho": "/assets/img/bang-gia/bg-cuoi-2ngay-thumb.jpg"
+        },
+        {
+          "tieu_de": "Gói 1 ngày cưới",
+          "nhom": "Gói cưới trọn gói",
+          "chu_thich": "Gói 1 ngày cưới — 6.000.000đ & 7.000.000đ",
+          "anh": "/assets/img/bang-gia/bg-cuoi-1ngay.jpg",
+          "anh_nho": "/assets/img/bang-gia/bg-cuoi-1ngay-thumb.jpg"
+        },
+        {
+          "tieu_de": "Album phim trường độc quyền tại Studio",
+          "nhom": "Gói chụp album",
+          "chu_thich": "Album phim trường độc quyền tại Studio — 6.900.000đ",
+          "anh": "/assets/img/bang-gia/bg-album-studio.jpg",
+          "anh_nho": "/assets/img/bang-gia/bg-album-studio-thumb.jpg"
+        },
+        {
+          "tieu_de": "Album Sachi Garden",
+          "nhom": "Gói chụp album",
+          "chu_thich": "Album Sachi Garden — 7.900.000đ",
+          "anh": "/assets/img/bang-gia/bg-album-sachi.jpg",
+          "anh_nho": "/assets/img/bang-gia/bg-album-sachi-thumb.jpg"
+        },
+        {
+          "tieu_de": "Album phim trường Sài Gòn",
+          "nhom": "Gói chụp album",
+          "chu_thich": "Album phim trường Sài Gòn — 8.900.000đ",
+          "anh": "/assets/img/bang-gia/bg-album-saigon.jpg",
+          "anh_nho": "/assets/img/bang-gia/bg-album-saigon-thumb.jpg"
+        },
+        {
+          "tieu_de": "Album Vũ Garden",
+          "nhom": "Gói chụp album",
+          "chu_thich": "Album Vũ Garden — 9.900.000đ",
+          "anh": "/assets/img/bang-gia/bg-album-vugarden.jpg",
+          "anh_nho": "/assets/img/bang-gia/bg-album-vugarden-thumb.jpg"
+        },
+        {
+          "tieu_de": "Album Vũng Tàu",
+          "nhom": "Gói chụp album",
+          "chu_thich": "Album Vũng Tàu — 8.900.000đ",
+          "anh": "/assets/img/bang-gia/bg-album-vungtau.jpg",
+          "anh_nho": "/assets/img/bang-gia/bg-album-vungtau-thumb.jpg"
+        },
+        {
+          "tieu_de": "Gói đám hỏi",
+          "nhom": "Đám hỏi",
+          "chu_thich": "Gói đám hỏi — 4.900.000đ",
+          "anh": "/assets/img/bang-gia/bg-dam-hoi.jpg",
+          "anh_nho": "/assets/img/bang-gia/bg-dam-hoi-thumb.jpg"
+        },
+        {
+          "tieu_de": "Gói 1 ảnh cổng",
+          "nhom": "Gói ảnh cổng",
+          "chu_thich": "Gói 1 ảnh cổng — từ 1.800.000đ",
+          "anh": "/assets/img/bang-gia/bg-anhcong-1.jpg",
+          "anh_nho": "/assets/img/bang-gia/bg-anhcong-1-thumb.jpg"
+        },
+        {
+          "tieu_de": "Gói 2 ảnh cổng",
+          "nhom": "Gói ảnh cổng",
+          "chu_thich": "Gói 2 ảnh cổng — từ 3.200.000đ",
+          "anh": "/assets/img/bang-gia/bg-anhcong-2.jpg",
+          "anh_nho": "/assets/img/bang-gia/bg-anhcong-2-thumb.jpg"
+        },
+        {
+          "tieu_de": "Bảng giá chụp tiệc cưới",
+          "nhom": "Chụp tiệc cưới",
+          "chu_thich": "Bảng giá chụp tiệc cưới",
+          "anh": "/assets/img/bang-gia/bg-tiec-cuoi.jpg",
+          "anh_nho": "/assets/img/bang-gia/bg-tiec-cuoi-thumb.jpg"
+        }
+      ],
+      "luu_y": {
+        "tieu_de": "",
+        "muc": []
+      }
+    }
+  ],
+  "tom_tat_trang_chu": [
+    {
+      "ten": "Gói cưới trọn gói",
+      "mo_ta": "Trang phục, trang điểm và chụp tiệc cho ngày cưới.",
+      "gia": "từ 6.000.000",
+      "don_vi": "4 gói · 1 ngày & 2 ngày",
+      "nhan": "",
+      "noi_bat": false,
+      "muc": [
+        "Váy cưới luxury + váy nhẹ đi bàn",
+        "Vest chú rể, áo dài dâu & rể",
+        "Makeup cô dâu tại tiệm",
+        "Máy chụp tiệc truyền thống, giao file",
+        "Kèm gói quà tặng cho gia đình hai bên"
+      ],
+      "link": "bang-gia.html#goi-cuoi"
+    },
+    {
+      "ten": "Gói chụp album cưới",
+      "mo_ta": "Chọn theo địa điểm: phim trường độc quyền, studio hoặc đi tỉnh.",
+      "gia": "từ 6.900.000",
+      "don_vi": "5 gói theo địa điểm",
+      "nhan": "Được chọn nhiều nhất",
+      "noi_bat": true,
+      "muc": [
+        "3 trang phục cô dâu + 3 trang phục chú rể",
+        "Makeup, 3 kiểu tóc, hoa cầm tay",
+        "Ê-kíp hỗ trợ set dáng, chụp 3 concept",
+        "2 ảnh cổng 60x90 gỗ cao cấp",
+        "Album 25x35 (20 trang) + hộp cao cấp"
+      ],
+      "link": "bang-gia.html#album"
+    },
+    {
+      "ten": "Đám hỏi & chụp tiệc",
+      "mo_ta": "Gói thuê đồ đám hỏi và các gói chụp ngày tiệc.",
+      "gia": "từ 2.000.000",
+      "don_vi": "Đặt riêng từng gói",
+      "nhan": "",
+      "noi_bat": false,
+      "muc": [
+        "Gói thuê đồ đám hỏi trọn ngày — 4.900.000đ",
+        "Chụp truyền thống — 2.300.000đ",
+        "Chụp phóng sự cưới — 3.000.000đ",
+        "Chụp lễ nhà thờ — 2.000.000đ",
+        "Quay phóng sự cưới — 5.500.000đ"
+      ],
+      "link": "bang-gia.html#dam-hoi"
+    }
+  ]
+}
