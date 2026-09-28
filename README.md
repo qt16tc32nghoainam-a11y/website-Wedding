@@ -96,13 +96,13 @@ trên trang quản trị (ảnh trong `assets\uploads\`) **luôn được giữ 
 
 ## 🚀 Đưa web lên mạng (làm 1 lần — anh tự làm các bước tài khoản)
 
-1. **GitHub:** tạo tài khoản ở github.com → *New repository* → tên `quocanstudio-web`,
-   chọn **Private**, **không** tick tạo README → *Create*.
-2. **Gửi web lên:** nhấp đúp `CAP NHAT WEB.bat` → **7** → dán link kho
-   (vd `https://github.com/<tài-khoản>/quocanstudio-web`). Lần đầu Windows mở trang đăng nhập
-   GitHub → anh đăng nhập để cho phép. Gửi ~210 MB, khoảng 5–15 phút tuỳ mạng.
+1. **GitHub — ĐÃ XONG (28/09/2026):** kho `qt16tc32nghoainam-a11y/website-Wedding`, nhánh `main`.
+   Máy đã nhớ kho này (`git remote origin`, dùng HTTPS vì máy chưa cài khoá SSH) và tên kho cũng
+   đã ghi trong `admin\config.yml`.
+2. **Gửi bản mới lên:** nhấp đúp `CAP NHAT WEB.bat` → **3**. (Kho khác: mục **7** rồi dán link kho.)
+   Lần đầu Windows mở trang đăng nhập GitHub → anh đăng nhập để cho phép. ~219 MB, 5–15 phút tuỳ mạng.
 3. **Netlify:** vào app.netlify.com → *Sign up with GitHub* → *Add new site → Import an existing
-   project → GitHub* → chọn `quocanstudio-web` → *Deploy*. Netlify tự đọc `netlify.toml`
+   project → GitHub* → chọn `website-Wedding` → *Deploy*. Netlify tự đọc `netlify.toml`
    (lệnh dựng `python tools/build_site.py`, thư mục `_site`). Có ngay link `xxx.netlify.app`.
 4. **Cho phép đăng nhập trang quản trị bằng GitHub:**
    - GitHub → *Settings → Developer settings → OAuth Apps → New OAuth App*:
