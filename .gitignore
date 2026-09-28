@@ -3,6 +3,7 @@
 /*
 !/.gitignore
 !/netlify.toml
+!/vercel.json
 !/README.md
 !/CAP NHAT WEB.bat
 !/admin/
