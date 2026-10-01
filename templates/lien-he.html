@@ -12,13 +12,10 @@
 <link rel="stylesheet" href="assets/css/style.css?v=202609111250">
 </head>
 <body>
-
-
 <!-- CMS:header -->
-
 <section class="page-hero">
   <div class="wrap">
-    <p class="crumb"><a href="index.html">Trang chủ</a> &nbsp;/&nbsp; Liên hệ</p>
+    <p class="crumb"><a href="index.html">Trang chủ</a>  /  Liên hệ</p>
     <h1>Liên hệ &amp; Đặt lịch</h1>
     <p>Ghé studio để xem album thật và thử váy cưới, hoặc gọi hotline để được tư vấn nhanh nhất.</p>
   </div>
@@ -31,9 +28,7 @@
       <p class="eyebrow">Thông tin liên hệ</p>
       <h2>Quốc An Studio</h2>
       <div class="divider" style="margin-left:0"><span></span></div>
-
 <!-- CMS:thong-tin -->
-
       <div class="btn-row" style="margin-top:30px">
         <a href="{{google_maps}}"
            target="_blank" rel="noopener" class="btn">Chỉ đường Google Maps</a>
@@ -63,6 +58,11 @@
             <input type="tel" id="sdt" name="Số điện thoại" placeholder="09xx xxx xxx"
                    pattern="[0-9 .+()]{9,15}" required>
           </div>
+        </div>
+
+        <div class="field">
+          <label for="email">Email *</label>
+          <input type="email" id="email" name="Email" placeholder="email@gmail.com" required>
         </div>
 
         <div class="field-row">
@@ -103,7 +103,6 @@
       <div class="divider"><span></span></div>
       <p>{{dia_chi}}.</p>
     </div>
-
     <div class="map-embed reveal">
       <iframe
         src="https://www.google.com/maps?q={{dia_chi_url}}&output=embed"
@@ -125,7 +124,6 @@
         </div>
         <p class="promo__qr-label">Quét mã đánh giá</p>
       </div>
-
       <div class="promo__body">
         <p class="promo__stars">★★★★★</p>
         <h2>Đánh giá Google Maps — Nhận ngay quà</h2>
@@ -148,11 +146,8 @@
 
 <!-- ============ THANH TOÁN / ĐẶT CỌC ============ -->
 <!-- CMS:thanh-toan -->
-
 <!-- CMS:footer -->
-
 <!-- CMS:nut-noi -->
-
 <script src="assets/js/main.js?v=202609111250"></script>
 </body>
 </html>
